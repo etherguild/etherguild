@@ -61,6 +61,37 @@ export default function HomePage() {
           >
             Read More
           </Link>
+
+          <div className="flex gap-6 mt-6">
+            <Link
+              href="/about"
+              className="text-white text-lg hover:text-gray-300 transition-colors underline"
+            >
+              About
+            </Link>
+            <Link
+              href="/discord"
+              className="text-white text-lg hover:text-gray-300 transition-colors underline"
+            >
+              Discord
+            </Link>
+            <a
+              href="https://x.com/TheEtherGuild"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-lg hover:text-gray-300 transition-colors underline"
+            >
+              X
+            </a>
+            <a
+              href="https://warpcast.com/etherguild"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-lg hover:text-gray-300 transition-colors underline"
+            >
+              Farcaster
+            </a>
+          </div>
         </div>
       </div>
     </main>

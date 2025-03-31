@@ -28,9 +28,9 @@ export function Navbar() {
 
       <div className="flex items-center gap-4 relative z-[60]">
         <ModeToggle />
-        <a href="/about" className="text-white hover:text-gray-300">
+        <Link href="/about" className="text-white hover:text-gray-300">
           About
-        </a>
+        </Link>
         {showWallet && <WalletComponents />}
       </div>
     </nav>
