@@ -33,7 +33,7 @@ export default function JoinPage() {
 
             <div className="mt-12 pt-8 border-t border-white/20">
               <p className="text-lg text-gray-300">
-                If you'd like to volunteer without donating,{" "}
+                If you&apos;d like to volunteer without donating,{" "}
                 <Link href="/discord" className="text-primary hover:underline">
                   join our Discord
                 </Link>{" "}
