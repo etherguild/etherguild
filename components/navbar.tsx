@@ -31,6 +31,12 @@ export function Navbar() {
         <a href="/about" className="text-white hover:text-gray-300">
           About
         </a>
+        <Link
+          href="/join"
+          className="px-4 py-2 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors"
+        >
+          Join Us
+        </Link>
         {showWallet && <WalletComponents />}
       </div>
     </nav>
