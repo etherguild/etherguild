@@ -35,7 +35,6 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="dark"
           forcedTheme="dark"
-          //enableSystem
           disableTransitionOnChange
         >
           <Providers>
