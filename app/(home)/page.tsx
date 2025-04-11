@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useNavbar } from "@/app/contexts/navbar-context";
 import { useEffect } from "react";
+import { FaXTwitter, FaDiscord } from "react-icons/fa6";
+import { SiFarcaster } from "react-icons/si";
 
 export default function HomePage() {
   const { setShowNavbar } = useNavbar();
@@ -69,6 +71,37 @@ export default function HomePage() {
               Read More
             </Link>
           </div>
+        </div>
+
+        {/* Social Media Links */}
+        <div className="absolute bottom-16 left-0 right-0 flex justify-center gap-8 z-10">
+          <Link 
+            href="https://x.com/TheEtherGuild" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+            aria-label="X (Twitter)"
+          >
+            <FaXTwitter size={28} />
+          </Link>
+          <Link 
+            href="#" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+            aria-label="Discord"
+          >
+            <FaDiscord size={28} />
+          </Link>
+          <Link 
+            href="https://warpcast.com/etherguild" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+            aria-label="FarCaster"
+          >
+            <SiFarcaster size={28} />
+          </Link>
         </div>
       </div>
     </main>
