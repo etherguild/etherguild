@@ -44,3 +44,4 @@ next-env.d.ts
 # other pkg managers
 bun.lockb
 yarn.lock
+package-lock.json
