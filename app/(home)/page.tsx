@@ -85,7 +85,7 @@ export default function HomePage() {
             <FaXTwitter size={28} />
           </Link>
           <Link 
-            href="https://discord.gg/sdCzcnMHVb" 
+            href="https://discord.com/invite/sdCzcnMHVb" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
