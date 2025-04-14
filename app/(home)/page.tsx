@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useNavbar } from "@/app/contexts/navbar-context";
 import { useEffect } from "react";
-import { FaXTwitter, FaDiscord } from "react-icons/fa6";
+import { FaXTwitter, FaDiscord, FaGithub } from "react-icons/fa6";
 import { SiFarcaster } from "react-icons/si";
 
 export default function HomePage() {
@@ -92,6 +92,15 @@ export default function HomePage() {
             aria-label="Discord"
           >
             <FaDiscord size={28} />
+          </Link>
+          <Link 
+            href="https://github.com/etherguild" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+            aria-label="GitHub"
+          >
+            <FaGithub size={28} />
           </Link>
           <Link 
             href="https://warpcast.com/etherguild" 
