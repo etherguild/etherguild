@@ -1,6 +1,6 @@
 ![Ether Guild](public/image/ether-guild-heading.png)
 
-Next.js app for [etherguild.xyz](https://etherguild.xyz). Quests protoype: [demo](https://etherguild.xyz/demo)
+NextJS app for [etherguild.xyz](https://etherguild.xyz). Quests protoype: [demo](https://etherguild.xyz/demo)
 
 Also see
 [etherguild-contracts](https://github.com/its-everdred/etherguild-protocol) and
