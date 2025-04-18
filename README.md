@@ -16,7 +16,7 @@ Running the app locally requires [bun](https://bun.sh/docs/installation) and [do
 # Install dependencies
 bun install
 
-# Setup environment
+# Copy environment variables 
 cp .env.example .env.development
 
 # Start Postgres
