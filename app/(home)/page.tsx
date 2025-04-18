@@ -59,7 +59,7 @@ export default function HomePage() {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="https://explorer.gitcoin.co/#/round/42161/867/153"
+              href="https://www.ethismoney.xyz/"
               className="px-8 py-3 bg-[#A23B23] text-white rounded-lg text-lg font-semibold hover:bg-[#8B3220] transition-colors w-[200px]"
             >
               Donate
