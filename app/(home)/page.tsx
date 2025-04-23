@@ -65,7 +65,7 @@ export default function HomePage() {
               Donate
             </Link>
             <Link
-              href="https://paragraph.xyz/@etherguild/introducing-ether-guild"
+              href="https://paragraph.xyz/@etherguild"
               className="px-8 py-3 border-2 border-white text-white rounded-lg text-lg font-semibold hover:bg-white hover:text-[#1F2937] transition-colors w-[200px]"
             >
               Read More
@@ -75,36 +75,36 @@ export default function HomePage() {
 
         {/* Social Media Links */}
         <div className="absolute bottom-16 left-0 right-0 flex justify-center gap-8 z-10">
-          <Link 
-            href="https://x.com/TheEtherGuild" 
-            target="_blank" 
+          <Link
+            href="https://x.com/TheEtherGuild"
+            target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
             aria-label="X (Twitter)"
           >
             <FaXTwitter size={28} />
           </Link>
-          <Link 
-            href="https://discord.com/invite/sdCzcnMHVb" 
-            target="_blank" 
+          <Link
+            href="https://discord.com/invite/sdCzcnMHVb"
+            target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
             aria-label="Discord"
           >
             <FaDiscord size={28} />
           </Link>
-          <Link 
-            href="https://github.com/etherguild" 
-            target="_blank" 
+          <Link
+            href="https://github.com/etherguild"
+            target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
             aria-label="GitHub"
           >
             <FaGithub size={28} />
           </Link>
-          <Link 
-            href="https://warpcast.com/etherguild" 
-            target="_blank" 
+          <Link
+            href="https://warpcast.com/etherguild"
+            target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
             aria-label="FarCaster"
