@@ -71,6 +71,20 @@ export default function HomePage() {
               Read More
             </Link>
           </div>
+
+          <p className="text-white mt-16 mb-8">
+            Looking to volunteer?{" "}
+            <Link
+              href="https://app.manifold.xyz/c/ether-guild-volunteer"
+              className="underline hover:text-gray-300"
+            >
+              Mint the NFT
+            </Link>{" "}
+            and{" "}
+            <Link href="/discord" className="underline hover:text-gray-300">
+              join us
+            </Link>
+          </p>
         </div>
 
         {/* Social Media Links */}
