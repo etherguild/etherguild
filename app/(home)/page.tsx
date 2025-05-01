@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useNavbar } from "@/app/contexts/navbar-context";
 import { useEffect } from "react";
-import { FaXTwitter, FaDiscord, FaGithub } from "react-icons/fa6";
-import { SiFarcaster } from "react-icons/si";
+import { FaXTwitter, FaDiscord, FaGithub, FaEnvelope } from "react-icons/fa6";
+import { SiFarcaster, SiLinear } from "react-icons/si";
 
 export default function HomePage() {
   const { setShowNavbar } = useNavbar();
@@ -110,6 +110,24 @@ export default function HomePage() {
             aria-label="FarCaster"
           >
             <SiFarcaster size={28} />
+          </Link>
+          <Link
+            href="https://linear.app/ether-guild/view/full-view-a1fe8523a388?layout=board&ordering=priority&grouping=workflowState&subGrouping=none&showCompletedIssues=all&showSubIssues=true&showTriageIssues=false"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+            aria-label="Linear"
+          >
+            <SiLinear size={28} />
+          </Link>
+          <Link
+            href="https://paragraph.com/@etherguild/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-300 transition-colors"
+            aria-label="Paragraph"
+          >
+            <FaEnvelope size={28} />
           </Link>
         </div>
       </div>
