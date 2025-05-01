@@ -112,7 +112,7 @@ export default function HomePage() {
             <SiFarcaster size={28} />
           </Link>
           <Link
-            href="https://linear.app/ether-guild/view/full-view-a1fe8523a388?layout=board&ordering=priority&grouping=workflowState&subGrouping=none&showCompletedIssues=all&showSubIssues=true&showTriageIssues=false"
+            href="https://linear.app/ether-guild/join/2b32d285d3327e5ac35735e360229360?s=3"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
